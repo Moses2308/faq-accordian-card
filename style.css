@@ -10,3 +10,22 @@
 
   --color-lightGrayishBlue: hsl(240, 5%, 91%);
 }
+.hidden {
+  display: none;
+}
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 12px;
+  background: linear-gradient(var(--color-softViolet), var(--color-softBlue));
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 0 1rem;
+}
+.faq-card {
+  padding: 0 2rem;
+  background-color: white;
+  position: relative;
+  border-radius: 1rem;
+  overflow: hidden;
+}
