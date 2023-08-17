@@ -1,0 +1,12 @@
+:root {
+  --color-veryDarkDesaturatedBlue: hsl(238, 29%, 16%);
+  --color-softRed: hsl(14, 88%, 65%);
+
+  --color-softViolet: hsl(273, 75%, 66%);
+  --color-softBlue: hsl(240, 73%, 65%);
+
+  --color-veryDarkDesaturatedBlue: hsl(237, 12%, 33%);
+  --color-darkGrayishBlue: hsl(240, 6%, 50%);
+
+  --color-lightGrayishBlue: hsl(240, 5%, 91%);
+}
