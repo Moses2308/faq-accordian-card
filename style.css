@@ -77,3 +77,28 @@ body {
 .dropdown__answer {
   margin-top: 0.5rem;
 }
+@media (min-width: 500px) {
+  /* previous images are hidden */
+  /* Popout switches to block on side */
+  /* inner woman image becomes visible */
+  /* inner shadow image becomes visible */
+  .althidden {
+    display: none;
+  }
+  .popout-container > .hidden {
+    --Xtranslate: 50%;
+    --Ytranslate: -20%;
+
+    display: block;
+    position: absolute;
+    z-index: 1;
+    right: 100%;
+    top: 50%;
+    transform: translate(var(--Xtranslate), var(--Ytranslate));
+  }
+  .faq-card {
+    max-width: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
