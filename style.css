@@ -46,3 +46,11 @@ body {
   margin: auto;
   transform: scale(1.1);
 }
+.faq__dropdowns {
+  padding: 2rem 0;
+}
+.dropdowns__title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+}
