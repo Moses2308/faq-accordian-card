@@ -76,6 +76,14 @@ body {
 .dropdown__answer {
   margin-top: 0.5rem;
 }
+.dropdown >  a {
+  text-decoration: none;
+  color: var(--color-veryDarkDesaturatedBlue);
+}
+a > .dropdown__question:hover{
+  color: var(--color-softRed);
+  cursor: pointer;
+}
 @media (min-width: 850px) {
   .dropdowns__title {
     text-align: left;
